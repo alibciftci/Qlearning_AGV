@@ -7,7 +7,7 @@ Yani her hücre için her aksiyonun tahmini değerini tutuyorum.
 Q-Learning güncelleme kuralı (Bellman):
     Q(s,a) <- Q(s,a) + alpha * (r + gamma * max_a' Q(s',a') - Q(s,a))
 
-Bu satır dersin tam kalbi. Burada öğrenme oranı alpha ile yeni
+Burada öğrenme oranı alpha ile yeni
 deneyimi eski tahmine ne kadar karıştıracağımızı, gamma ile de
 gelecekteki ödülleri ne kadar değerli gördüğümüzü ayarlıyoruz.
 """
